@@ -505,7 +505,7 @@
             <label for="comment" class="modal-label">Comment</label>
             <div class="input-wrapper">
               <textarea
-                class="modal-input"
+                class="modal-textarea"
                 name="comment"
                 placeholder="Text input"
                 id="comment"
@@ -513,18 +513,24 @@
             </div>
           </div>
 
+          <!-- CUSTOM CHECKBOX -->
           <div>
-            <div>
-              <input
-                type="checkbox"
-                class="modal-input"
-                name="policy"
-                id="policy"
-              />
-            </div>
-            <label for="policy" class="modal-label">
-              I accept the terms and conditions of the Privacy Policy
-            </label>
+            <input
+              type="checkbox"
+              name="policy"
+              id="policy"
+              class="modal-check visually-hidden"
+              value="true"
+            />
+            <label for="policy" class="modal-check-text"
+              ><span class="modal-check-item">
+                <svg class="check-icon" width="10" height="10">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="" class="policy-link">Privacy Policy</a></label
+            >
           </div>
 
           <div>
