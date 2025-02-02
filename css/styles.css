@@ -659,6 +659,16 @@ a {
   fill: #2e2f42;
 }
 
+.modal-input:hover,
+.modal-input:focus {
+  border: 1px solid #4d5ae5;
+}
+
+.modal-input:hover + .modal-icon,
+.modal-input:focus + .modal-icon {
+  fill: #4d5ae5;
+}
+
 textarea.modal-input {
   padding-top: 8px;
   padding-left: 16px;
