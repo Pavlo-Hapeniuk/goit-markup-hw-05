@@ -604,22 +604,22 @@ a {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-icon-close:hover,
+.modal-icon-close:focus {
+  fill: #ffffff;
+}
+
 .modal-button:hover,
 .modal-button:focus {
   background-color: #404bbf;
   border: none;
 }
 
-.modal-icon-close:hover,
-.modal-icon-close:focus {
-  fill: #ffffff;
-}
-
 .modal-button:hover .modal-icon-close,
-.modal-button:hover .modal-icon-close {
+.modal-button:focus .modal-icon-close {
   fill: #ffffff;
-  /* background-color: #404bbf;
-  border: none; */
+  background-color: #404bbf;
+  border: none;
 }
 
 .modal-text {
