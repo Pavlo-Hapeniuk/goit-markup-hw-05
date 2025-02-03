@@ -738,8 +738,8 @@ a {
 }
 
 .modal-check-text {
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
 
   margin: 16px 0 24px;
 
@@ -751,7 +751,7 @@ a {
 }
 
 .policy-link {
-  padding-left: 4px;
+  /* padding-left: 4px; */
   line-height: 1.33333;
   text-decoration: underline;
   text-decoration-skip-ink: none;
