@@ -60,7 +60,9 @@
           <h1 class="first-section-title">
             Effective Solutions for Your Business
           </h1>
-          <button class="btn" type="button">Order Service</button>
+          <button class="btn" type="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
       <section class="second-section">
@@ -475,9 +477,9 @@
     </footer>
 
     <!-- add class "is-open" to activate backdrop with modal-window -->
-    <div class="backdrop">
+    <div class="backdrop" data-modal>
       <div class="modal">
-        <button type="button" class="modal-button">
+        <button type="button" class="modal-button" data-modal-close>
           <svg class="icon modal-icon-close" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -558,10 +560,10 @@
             >
           </div>
 
-          <!-- <label for="send-btn" class=""></label> -->
           <button type="submit" class="modal-btn" name="send-btn">Send</button>
         </form>
       </div>
     </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
