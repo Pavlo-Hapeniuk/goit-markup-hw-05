@@ -608,7 +608,6 @@ a {
 .modal-button:focus {
   background-color: #404bbf;
   border: none;
-  fill: #ffffff;
 }
 
 .modal-icon-close:hover,
@@ -619,8 +618,8 @@ a {
 .modal-button:hover .modal-icon-close,
 .modal-button:hover .modal-icon-close {
   fill: #ffffff;
-  background-color: #404bbf;
-  border: none;
+  /* background-color: #404bbf;
+  border: none; */
 }
 
 .modal-text {
