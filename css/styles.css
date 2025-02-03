@@ -630,7 +630,7 @@ a {
   text-align: center;
   color: #2e2f42;
 
-  /* margin: 72px 0 16px; */
+  margin-bottom: 16px;
 }
 
 .modal-form {
