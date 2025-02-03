@@ -608,10 +608,10 @@ a {
   border: none;
 }
 
-/* .modal-icon-close:hover,
+.modal-icon-close:hover,
 .modal-icon-close:focus {
-  fill: #fff;
-} */
+  fill: #ffffff;
+}
 
 .modal-button:hover .modal-icon-close,
 .modal-button:hover .modal-icon-close {
